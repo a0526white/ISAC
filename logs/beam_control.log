@@ -1,0 +1,12 @@
+2025-08-31 16:58:10,600 - BeamControl - INFO - 智能日誌系統初始化完成
+2025-08-31 16:58:10,600 - BeamControl - INFO - 日誌檔案: logs\beam_control.log
+2025-08-31 16:58:10,601 - BeamControl - INFO - 最大檔案大小: 10.0MB
+2025-08-31 16:58:10,601 - BeamControl - INFO - 最大檔案數量: 5
+2025-08-31 16:58:10,601 - BeamControl.Main - INFO - ISAC-Beam整合介面初始化完成
+2025-08-31 16:58:10,601 - BeamControl.Main - INFO - 開始初始化ISAC-Beam整合系統...
+2025-08-31 16:58:10,601 - BeamControl.DeviceManager - INFO - 初始化TLKCoreService...
+2025-08-31 16:58:10,603 - BeamControl.DeviceManager - INFO - TLKCoreService v2.2.0.30 初始化成功
+2025-08-31 16:58:10,603 - BeamControl.DeviceManager - INFO - 開始掃描設備...
+2025-08-31 16:58:12,724 - BeamControl.DeviceManager - ERROR - 設備掃描失敗
+2025-08-31 16:58:12,725 - BeamControl.Main - ERROR - 未發現設備
+2025-08-31 16:58:12,726 - BeamControl.Main - INFO - ISAC-Beam整合系統已清理

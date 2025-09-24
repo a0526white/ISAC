@@ -1,0 +1,67 @@
+{
+  "hardware": {
+    "device_args": "type=b200",
+    "sample_rate": 30000000.0,
+    "center_freq_if": 2000000000.0,
+    "center_freq_rf": 28000000000.0,
+    "device_info": {
+      "type": "b200",
+      "name": "NI2901",
+      "serial": "32C78E1",
+      "product": "B210",
+      "firmware_version": "8.0",
+      "fpga_version": "16.0"
+    }
+  },
+  "chirp": {
+    "duration": 0.0001,
+    "bandwidth": 20000000.0,
+    "sample_rate": 30000000.0,
+    "start_freq": 0,
+    "stop_freq": 20000000.0,
+    "samples": 3000
+  },
+  "radar": {
+    "range_resolution": 7.5,
+    "max_range": 3840.0,
+    "range_bins": 512,
+    "doppler_bins": 64,
+    "cfar_params": {
+      "guard": [2, 2],
+      "training": [8, 8],
+      "pfa": 0.001
+    }
+  },
+  "beam": {
+    "scan_enabled": true,
+    "scan_angles": [-45, -35, -25, -15, -5, 5, 15, 25, 35, 45],
+    "dwell_time": 0.1,
+    "total_scan_time": 1.0
+  },
+  "usrp": {
+    "device_args": "type=b200",
+    "sample_rate": 30000000.0,
+    "center_freq": 2000000000.0,
+    "tx_gain": 20.0,
+    "rx_gain": 20.0,
+    "tx_antenna": "TX/RX",
+    "rx_antenna": "RX2",
+    "platform_args": {
+      "device_args": "type=b200",
+      "buffer_size": 16384,
+      "num_recv_frames": 32,
+      "num_send_frames": 32
+    }
+  },
+  "communication": {
+    "modulation": "chirp_bpsk",
+    "data_rate": 200000.0,
+    "frame_size": 1024,
+    "error_correction": true,
+    "bandwidth_efficiency": 0.01
+  },
+  "platform": "linux",
+  "config_version": "hardware_verified_v1.0",
+  "last_updated": "2024-09-02",
+  "notes": "基於實際硬體測試結果驗證的配置"
+}
